@@ -1,0 +1,13 @@
+name: Shiny_demo
+title: Shiny_demo
+username:
+account: admeflow
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7344794
+bundleId: 6480120
+url: https://admeflow.shinyapps.io/Shiny_demo/
+when: 1667691168.75681
+lastSyncTime: 1667691168.75682
+asMultiple: FALSE
+asStatic: FALSE
