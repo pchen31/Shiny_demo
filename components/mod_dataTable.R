@@ -1,5 +1,7 @@
+# Import component(s) ----
 source("./components/functions.R")
 
+# UI ----
 dataTable_UI <- function(id) {
   ns <- NS(id)
   tagList(
@@ -7,6 +9,7 @@ dataTable_UI <- function(id) {
   )
 }
 
+# Server ----
 dataTable_Server <- function(id, fun_dt, data, pageLen) {
   moduleServer(
     id, 

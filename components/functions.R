@@ -1,3 +1,7 @@
+# Load libraries ----
+library(DT)
+
+# Create functions ----
 dt_style_1 <- function(data, pagelength) {
   datatable(data,
             filter = "top",

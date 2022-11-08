@@ -1,3 +1,7 @@
+# load libraries ----
+library(lubridate, warn.conflicts = FALSE)
+
+# import component(s) ----
 source("./components/variables.R")
 
 # UI ----

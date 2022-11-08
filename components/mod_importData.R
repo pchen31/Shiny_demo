@@ -1,3 +1,7 @@
+# Load libraries ----
+library(datamods)
+
+# Import component(s) ----
 source("./components/variables.R")
 
 # UI ----

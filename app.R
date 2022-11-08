@@ -1,9 +1,6 @@
 library(shiny)
 library(shinyWidgets)
-library(datamods)
-library(DT)
 library(tidyverse)
-library(lubridate, warn.conflicts = FALSE)
 
 # import modules
 source("./components/variables.R")
@@ -45,7 +42,7 @@ ui <- fluidPage(
 # Server section ----
 server <- function(input, output, session) {
   
-  # Initialized data_rv ----
+  # Initialize data_rv ----
   data_rv <- reactiveValues(
     data = data.frame()
   )
